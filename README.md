@@ -5,7 +5,7 @@ KL Study Hub is a student-friendly website created to provide **BCA study materi
 It includes **Notes, Previous Year Question Papers, Assignments, and Updates** for easy access.
 
 🌐 Live Website:  
-👉 https://vamsikrishna596.github.io/kl-studyhub/
+👉 https://vamsikrishna596.github.io/KL-StudyHub/#home
 
 ---
 
