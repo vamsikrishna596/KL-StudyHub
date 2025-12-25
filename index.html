@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KL Study Hub</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; background:#f5f5f5; }
+header { background:#0ec04c; color:#fff; padding:20px; text-align:center; }
+nav { background:#84d5d1; padding:10px; text-align:center; position:sticky; top:0; }
+nav a { color:#1d055e; margin:0 15px; text-decoration:none; font-weight:bold; }
+section { padding:40px 20px; }
+.banner { padding:50px; text-align:center; background:#e3f1ff; }
+.container { display:flex; flex-wrap:wrap; justify-content:center; }
+.card {
+ background:white; width:270px; margin:15px; padding:20px; text-align:center;
+ border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.box { background:white; width:80%; margin:10px auto; padding:20px; border-radius:8px; }
+footer { background:#7092ef; color:white; text-align:center; padding:15px; }
+@media (max-width:600px){ .card{width:90%;} nav a{display:block;margin:10px;} }
+</style>
+</head>
+<body>
+
+<header>
+<h1>📚 KL Study Hub</h1>
+<p>Notes | Question Papers | Assignments</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#notes">Notes</a>
+<a href="#papers">Papers</a>
+<a href="#assignments">Assignments</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="banner">
+<h2>Welcome to KL Study Hub</h2>
+<p>All study materials in one place</p>
+</section>
+
+<div class="container">
+<div class="card"><h3>📘 Notes</h3><a href="#notes">View</a></div>
+<div class="card"><h3>📄 Papers</h3><a href="#papers">View</a></div>
+<div class="card"><h3>📝 Assignments</h3><a href="#assignments">View</a></div>
+</div>
+
+<section id="notes">
+<h2>BCA 4th Semester Notes</h2>
+<div class="box">Python Programming</div>
+<div class="box">Operating Systems</div>
+</section>
+
+<section id="papers">
+<h2>Previous Papers</h2>
+<div class="box">2025 Papers</div>
+<div class="box">2024 Papers</div>
+</section>
+
+<section id="assignments">
+<h2>Assignments</h2>
+<div class="box">Python Assignment</div>
+<div class="box">OS Assignment</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: klstudyhub@gmail.com</p>
+</section>
+
+<footer>© 2025 KL Study Hub</footer>
+
+</body>
+</html>
